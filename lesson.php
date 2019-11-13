@@ -46,10 +46,50 @@ echo strlen($name);
 
 //research on the following string:
 
-//str_word count()
-//strrev
-//strpros
-//str_replace
+//str_word count() : it counts words in a string
+ //strrev : it reversesa string(it writes a string backwards )
+//strpros: it finds the occarence of a string inside another string
+//str_replace:it replaces other characters with another string
+
+
+//php numbers
+//Intergers:its a whole number without decimal point
+   //       it must have a tleast one number can be -ve or +ve
+ //funcrions that apply to intergers;
+      //                              is_int()
+    //                                is_interger()
+  //                                  is_long()
+
+//var_dump()-returns the type of data ie  is it an interger or a string
+
+$x=30;
+var_dump( $x );
+//is_int($x);returns a booleam data type if a number is an interger it returns true
+
+
+
+//FLOAT
+//is a number with a decimal point
+//is_float() returns true if a number is adecimal number
+
+$y=3.142;
+var_dump(is_float($y))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
