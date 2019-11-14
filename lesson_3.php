@@ -79,8 +79,39 @@ echo $i;
 
 
 //logical ops
-//Assignment: logical ops: and not
+$x =10;
+$b =40;
+if ($x ==10 and $b ==40 )
+    echo "true";
 
+//They are used to combine condirional statements
+//Assignment: logical ops:
+//1;And -and;
+//2;Or -or
+//3; And -
+//4;not - ! return true is a condition is not true
+
+$d =3;
+$g =5;
+
+if ($d ==3 and $g > 4){
+    echo "hello world <br>";
+}
+
+//or
+if($d < 70 or $g ==70 ){
+    echo "hello world <br>";
+}
+
+//not
+if( $d !== "test") {
+    echo  "not identical <br>";
+
+}
+
+if($d != $y){
+    echo $d."  is not equal to". $g. "<br>";
+}
 
 
 ?>
