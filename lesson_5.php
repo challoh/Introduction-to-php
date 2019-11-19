@@ -149,16 +149,18 @@ elseif ($n/2  and $n /5 ){
 function xyz($n)
 {
     if ($n % 3 == 0) {
-        echo "nekwbj <br>";
+        echo "fizz <br>";
     } else if ($n % 5 == 0) {
-        echo "1234 <br>";
+        echo "buzz <br>";
     } else if ($n % 3 == 0 and $n % 5 == 0) {
-        echo "echo <br>";
-
+        echo "fizzbuzz <br>";
     }
-    xyz(15);
-}
+    else if($n % 3 != 0 and $n % 5 != 0){
+        echo "buzzfizz <br>";
+    }
 
+}
+xyz(7);
 
 
 
