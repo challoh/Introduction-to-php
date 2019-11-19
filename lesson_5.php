@@ -127,6 +127,49 @@ greetings5("john");
 //else echo the number that is not divisible by both , echo "FIZBUZ"
 //else echo the number that is not divisible
 
+"<br>";
+"<br>";
+"<br>";
+
+echo "ASSIGNMENT <br>";
+
+$n = 15;
+
+if($n /2 ){
+    echo "fizz <br>";
+}
+if($n /5 ){
+    echo"buzz <br>";
+}
+elseif ($n/2  and $n /5 ){
+    echo "fizbuz <br>";
+}
+
+
+function xyz($n)
+{
+    if ($n % 3 == 0) {
+        echo "nekwbj <br>";
+    } else if ($n % 5 == 0) {
+        echo "1234 <br>";
+    } else if ($n % 3 == 0 and $n % 5 == 0) {
+        echo "echo <br>";
+
+    }
+    xyz(15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
