@@ -23,16 +23,18 @@
             <input class="form-control" type="text" placeholder="Enter Your Name">
         </div>
 
-        <div class="form-group">
-            <label for=""> Email</label>
+        <form class="form-group">
             <input class="form-control" type="Email" placeholder="Enter your email">
 
-        </div>
-        <div class="form-group">
-            <label for="">password</label>
-            <input class="form-control" type="password" placeholder="enter password">
+            </form>
 
-        </div>
+        <form action="" method="post">
+            <input type="text" name="challoh">
+            <input type="password" placeholder="enter password">
+        </form>
+
+
+
 
 
         <div class="form-group">
